@@ -1,0 +1,9 @@
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* 防止屏幕尺寸太小导致元素换行的问题 -> 此时若屏幕尺寸太小，会出现横向的滚动条*/
+  min-width: 1100px;
+}
